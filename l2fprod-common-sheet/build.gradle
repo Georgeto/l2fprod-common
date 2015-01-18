@@ -1,0 +1,4 @@
+dependencies {
+	compile project(':l2fprod-common-shared')
+	compile 'com.toedter:jcalendar:1.3.2'
+}

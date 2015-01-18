@@ -1,0 +1,14 @@
+subprojects {
+
+	apply plugin: "java"
+ 
+	sourceCompatibility = 1.6
+ 
+	repositories {
+		mavenCentral()
+	}
+
+	jar {
+		from sourceSets.main.allSource
+	}
+}

@@ -1,6 +1,10 @@
-l2fprod-common-shared/.settings
-l2fprod-common-shared/target
-l2fprod-common-sheet/.settings
-l2fprod-common-sheet/target
-.settings
-target
+# Eclipse
+bin/
+.settings/
+.classpath
+.project
+
+# Gradle
+build/
+.gradle/
+gradle.properties
