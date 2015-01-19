@@ -25,7 +25,7 @@ public class BooleanRenderer extends JPanel implements TableCellRenderer, Serial
 	public BooleanRenderer() {
 
 		checkbox = new JCheckBox();
-		checkbox.setBounds(-3, 0, 200, 15);
+		checkbox.setBounds(0, 0, 200, 15);
 		checkbox.setText("");
 
 		setBorder(null);

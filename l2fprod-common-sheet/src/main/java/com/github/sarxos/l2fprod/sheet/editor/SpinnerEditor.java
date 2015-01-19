@@ -47,12 +47,12 @@ public class SpinnerEditor extends AbstractPropertyEditor {
 			setFocusCycleRoot(true);
 			setFocusTraversalPolicy(new ContainerOrderFocusTraversalPolicy());
 
-			add(component);
-
 			if (getUI().getClass().getSimpleName().equals("SubstancePanelUI")) {
 				setLayout(new ResizeLayout());
+				add(component);
 			} else {
 				setLayout(new BorderLayout());
+				add(component, BorderLayout.CENTER);
 			}
 		}
 

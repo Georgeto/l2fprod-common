@@ -34,7 +34,7 @@ public class BooleanEditor extends AbstractPropertyEditor {
 		checkbox.setSelected(selected);
 		checkbox.setText(selected ? I18N.TRUE : I18N.FALSE);
 		checkbox.setOpaque(true);
-		checkbox.setLocation(-3, 0);
+		checkbox.setLocation(0, 0);
 		checkbox.setFocusable(false);
 		checkbox.setBackground(UIManager.getColor("Table.selectionBackground"));
 		checkbox.setForeground(UIManager.getColor("Table.selectionForeground"));
